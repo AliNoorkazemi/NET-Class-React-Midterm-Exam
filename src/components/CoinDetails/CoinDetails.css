@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+/*background of the deails page*/
+.details-page-container {
+  background-color: rgb(21, 22, 26);
+  width: 100%;
+  height: 550px;
+  color: #f5f5f5;
+  text-align: center;/*centerized item in the page*/
+  padding-top: 3em;
+  font-family: Poppins, sans-serif;
+}
+
+.coin-name {
+  font-size: 3em;
+}
+
+.coin-description {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+.coin-detail {
+  margin-top: 0.7em;
+  font-size: 1.5em;
+}

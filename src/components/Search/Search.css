@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+/*background size and image in search page*/
+.background {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../../assets/banner.jpg");
+}
+
+/*title in search page style*/
+.title {
+  color: whitesmoke;
+  font-family: Poppins, sans-serif;
+  font-size: 2em;
+  text-align: center;/*move title to center of the search page*/
+}
+
+/*text under title style*/
+.title-infromation {
+  color: gray;
+  font-family: Poppins, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*set background color for search box container div and set size of it*/
+.search-box-container {
+  background: rgb(21, 22, 26);
+  margin-top: 3em;
+  height: 400px;
+}
+
+.search-box-container-title {
+  color: whitesmoke;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5em;
+  text-align: center;/*mvoe center title of search box*/
+}
+
+/*input form of search box*/
+.search-box-container input {
+  width: 100%;
+  border: 3px solid black;
+  border-right: none; /*set no border for right of the input tag*/
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: gray;/*text color in input form */
+  font-family: Poppins, sans-serif;
+  background-color: rgb(21, 22, 26); /*background color of the input tag*/
+}
+
+/*title row of table */
+.table-title {
+  background-color: rgb(238, 188, 29); /*background color of this row is gold*/
+  margin-top: 1em;
+  width: 800px;
+  margin: auto;/*centerized row in page*/
+  margin-top: 10px;
+  padding: 1px 7px;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  /*not copyable and not selectabe content*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*(Coin) column of title row of table style*/
+.table-column-title-left {
+  display: inline;
+  float: left; /*move this column to left*/
+  padding-right: 250px;
+}
+
+/*other column of title row of table style*/
+.table-column-title-right {
+  display: inline;
+  padding-left: 80px;
+}
+
+/*submit button for search box*/
+.search-box-container button {
+  height: 36px;
+  border: 1px solid black;
+  background: #0a0a1f;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;/*set cursor of div to pointer to get button state*/
+  font-size: 20px;
+}
+
+/*centrized div of search input and submit button*/
+.search-from {
+  width: 65%;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+
+/*set size of currency list*/
+.currency-list-container {
+  overflow-y: scroll;/*overflow height of list in scroll mode*/
+  height: 300px;
+}
+
+/*centerized table with size of it*/
+.currency-list-container table {
+  border-collapse: collapse;
+  margin-left: 17%;
+  table-layout: fixed;
+  width: 200px; 
+}
+
+.currency-list-container td {
+  text-align: right;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  width: 170px;
+  color: white; /*text color in table is white*/
+}
+
+.currency-list-container img{
+  width: 50px;
+  float: left;/*move image to left of the table*/
+}
